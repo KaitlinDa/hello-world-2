@@ -1,0 +1,23 @@
+body {
+   background-color: #D2E2FF 
+}
+
+header {
+    background-color: #949AA9;
+}
+
+* {
+  border: 1px solid black  
+}
+
+p{
+    background-color: #949AA9;
+}
+
+section {
+    display: inline-block;
+}
+
+#IDone {
+    background-color: white;
+}
