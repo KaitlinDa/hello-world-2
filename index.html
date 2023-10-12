@@ -3,11 +3,12 @@
 <head>
     <title>Icecream For Me</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <script>
-let namePerson = prompt('What is your name?')
-document.write('Welcome ' + namePerson );
+    yourName()
 </script>
+
 <body>
     <header>
         <h1>Icecream For Me</h1>
@@ -20,22 +21,13 @@ document.write('Welcome ' + namePerson );
              </nav>
     </header>
     <main>
-        <script>
-            let eatenHere = prompt('How many times have you visited this establishment?');
-            if(eatenHere > 1){
-                document.write('We are happy to have you back!');
-            } else {
-                document.write('We hope your first experience here is as wonderful as our icecream!');
-            }
-        </script>
 
-        
-        <script>
-            let howMuchIcecream = prompt('How much icecream have you eaten today from 0-100?');
-            if(howMuchIcecream < 100){
-                document.write('You are at the right place!');
-            }
-        </script>
+<script>
+    eatIcecream()
+    howIcecream()
+</script>
+
+
 
         <section>
             <img alt="Icecream Store Front" src="https://via.placeholder.com/960x640.png?text=Icecream+Shop+Store+Front">
@@ -65,7 +57,6 @@ document.write('Welcome ' + namePerson );
             Chocolate vanilla fudge cream
         </p>
     </main>
-
     <footer>
         <p>&copy; 2023 Icecream For Me</p>
     </footer>
