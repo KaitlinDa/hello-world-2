@@ -4,6 +4,10 @@
     <title>Icecream For Me</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+let namePerson = prompt('What is your name?')
+document.write('Welcome ' + namePerson );
+</script>
 <body>
     <header>
         <h1>Icecream For Me</h1>
@@ -16,6 +20,22 @@
              </nav>
     </header>
     <main>
+        <script>
+            let eatenHere = prompt('How many times have you visisted this establishment?');
+            if(eatenHere > 1){
+                document.write('We are happy to have you back!');
+            } else {
+                document.write('We hope your first experience here is as wonderful as our icecream!');
+            }
+        </script>
+
+        
+        <script>
+            let howMuchIcecream = prompt('How much icecream have you eaten today from 0-100?');
+            if(howMuchIcecream < 100){
+                document.write('You are at the right place!');
+            }
+        </script>
 
         <section>
             <img alt="Icecream Store Front" src="https://via.placeholder.com/960x640.png?text=Icecream+Shop+Store+Front">
@@ -23,6 +43,8 @@
                 Mint and delicious chocolate chip.
             </p>
         </section>
+
+
 
         <section>
             <img src="https://via.placeholder.com/300x150.png?text=Icecream+pic+1" alt=""Icecream 1" />
