@@ -2,7 +2,7 @@
 
 function yourName(){
 let namePerson = prompt('What is your name?')
-if(namePerson == ''){
+while(namePerson == ''){
     namePerson = prompt('Tell me your name');
 }
 document.write('Welcome ' + namePerson );
@@ -22,4 +22,12 @@ let howMuchIcecream = prompt('How much icecream have you eaten today from 0-100?
 if(howMuchIcecream < 100){
     document.write('You are at the right place!');
 }
+}
+
+function howManyIcecreams(){
+    let numOfIcecreams = prompt ("How many icecreams would you like to see?");
+
+    for(let i =0; i < numOfIcecreams; i++){
+        document.write("<img src='bestice.jpg' alt='This is the best icecream!' >")
+    }
 }
